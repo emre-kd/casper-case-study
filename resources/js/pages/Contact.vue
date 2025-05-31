@@ -22,6 +22,7 @@ const form = useForm({
     email: '',
     province: '',
     district: '',
+    message: '',
 });
 
 const showSuccessAlert = ref(false);
@@ -172,6 +173,18 @@ function submit() {
                                 </option>
                             </select>
                             <InputError class="mt-2" :message="form.errors.district" />
+                        </div>
+
+                        <div class="mt-2 grid gap-2">
+                            <Label for="message">Message:</Label>
+                            <textarea
+                                id="message"
+                                v-model="form.message"
+                                placeholder="Enter your message"
+                                class="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
+                                rows="4"
+                            ></textarea>
+                            <InputError class="mt-2" :message="form.errors.message" />
                         </div>
 
                         <div class="mt-2 flex items-center gap-4">

@@ -43,6 +43,8 @@ function deleteItem(id) {
                             <th scope="col" class="px-6 py-3">Email</th>
                             <th scope="col" class="px-6 py-3">Province</th>
                             <th scope="col" class="px-6 py-3">District</th>
+                            <th scope="col" class="px-6 py-3">Message</th>
+
                             <th scope="col" class="px-6 py-3">Action</th>
                         </tr>
                     </thead>
@@ -54,7 +56,7 @@ function deleteItem(id) {
                             <td class="px-6 py-2 font-medium text-gray-900 dark:text-white">{{ form.email }}</td>
                             <td class="px-6 py-2 text-gray-600 dark:text-gray-300">{{ form.province }}</td>
                             <td class="px-6 py-2 text-gray-600 dark:text-gray-300">{{ form.district }}</td>
-
+                            <td class="px-6 py-2 text-gray-600 dark:text-gray-300">{{ form.message }}</td>
 
 
                             <td class="px-6 py-2">

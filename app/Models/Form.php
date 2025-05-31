@@ -15,6 +15,6 @@ class Form extends Model
         'email',
         'province',
         'district',
-
+        'message',
     ];
 }

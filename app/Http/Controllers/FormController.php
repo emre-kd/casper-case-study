@@ -38,7 +38,7 @@ class FormController extends Controller
             'email' => 'required|email|max:255',
             'province' => 'required|string',
             'district' => 'required|string',
-
+            'message' => 'required|string',
         ]);
 
 
@@ -49,6 +49,7 @@ class FormController extends Controller
             'email' => $request->email,
             "province" => $request->province,
             'district' => $request->district,
+            'message' => $request->message,
 
         ]);
         return redirect()->route('contact')->with('success', 'Your form has been submitted successfully.');
