@@ -21,7 +21,7 @@ A brief description of your Laravel + Vue.js project.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/emre-kd/casper-case-study.git
    cd yourproject
 
    php artisan serve
