@@ -25,4 +25,4 @@ A brief description of your Laravel + Vue.js project.
    cd yourproject
 
    php artisan serve
-   npn run dev
+   npm run dev
